@@ -4,7 +4,7 @@ require_once ('include/connection.php');
 
 $Mosha = (isset($_GET['action']) ? $_GET['action'] : null);
 
-if ($Mosha = '4444') {
+if ($Mosha = 'add') {
     if (isset($_POST['REGIST'])) {
         $username = $_POST['username'];
         $password = $_POST['password'];
